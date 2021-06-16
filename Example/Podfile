@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'react-native-webview_Example' do
+  pod 'react-native-webview', :path => '../'
+
+  target 'react-native-webview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
